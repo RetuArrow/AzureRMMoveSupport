@@ -1,5 +1,7 @@
 # AzureMoveSupport
 Check if your Azure resources support move operation to another subscription
+https://docs.microsoft.com/fi-fi/azure/azure-resource-manager/management/move-support-resources
+https://raw.githubusercontent.com/tfitzmac/resource-capabilities/master/move-support-resources.csv
 
 1. Dowload AzureMoveCheck.ps1
 3. Go to Azure portal and click all resources
