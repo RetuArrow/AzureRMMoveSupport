@@ -9,7 +9,7 @@ https://raw.githubusercontent.com/tfitzmac/resource-capabilities/master/move-sup
 3. Go to Azure portal and click all resources
 4. Click Manage View -> Edit Columns -> Choose **Name** and **Resource Type**
 5. Click **Export to CSV**
-6. Copy donloaded CSV-file (Azureresources.csv) to the same folder as the script
+6. Copy downloaded CSV-file (Azureresources.csv) to the same folder as the script
 7. Edit Azureresources.csv and remove the first line "SEP=," and save
 8. Run the AzureMoveCheck.ps1
 9. Check the results file **results.csv**
