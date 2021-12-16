@@ -5,7 +5,7 @@ https://docs.microsoft.com/fi-fi/azure/azure-resource-manager/management/move-su
 Move operation support for resources CSV (downloaded by the script):<br>
 https://raw.githubusercontent.com/tfitzmac/resource-capabilities/master/move-support-resources.csv<br>
 
-1. Dowload AzureMoveCheck.ps1
+1. Download AzureMoveCheck.ps1
 3. Go to Azure portal and click all resources
 4. Click Manage View -> Edit Columns -> Choose **Name** and **Resource Type**
 5. Click **Export to CSV**
