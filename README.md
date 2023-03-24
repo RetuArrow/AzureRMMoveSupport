@@ -15,3 +15,18 @@ https://raw.githubusercontent.com/tfitzmac/resource-capabilities/master/move-sup
 9. Check the results file **results.csv**
 10. 0 = does not support move operation
 11. 1 = supports move operation
+
+# AzureRMMoveSupport
+Check if your Azure resources support move operation to another subscription
+Move operation support for resources:<br>
+https://docs.microsoft.com/fi-fi/azure/azure-resource-manager/management/move-support-resources<br>
+Move operation support for resources CSV (downloaded by the script):<br>
+https://raw.githubusercontent.com/tfitzmac/resource-capabilities/master/move-support-resources.csv<br>
+
+1. Download AzureRMMoveCheck.ps1
+2. Go to Azure portal and open cloud shell (PowerShell)
+3. Log in (Login-AzureRmAccount or Connect-AzAccount -UseDeviceAuthentication)
+4. Run the AzureMoveCheck.ps1
+5. Check the results file **results.csv** (Subscription ID, resource name, resource type and if movable)
+6. 0 = does not support move operation
+7. 1 = supports move operation
