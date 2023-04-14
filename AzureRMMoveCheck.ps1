@@ -11,7 +11,7 @@ foreach($resource in $Azureresources){
         #$resource."Resource Type" + ":" + $test #| Out-File -FilePath .\results.csv -Append
         if($resource."ResourceType" -like "*"+$test+"*") {
             write-host $resource.resourceid.Split("/")[2] "," $resource.SKU "," $resource.name "," $support."Move Subscription"
-            $resource.resourceid.Split("/")[2]+","+$resource.name +","+$resource."ResourceType" +","+ $support."Move Subscription" | Out-File -FilePath .\results.csv -Append
+            $resource.resourceid.Split("/")[2]+","+$resource.SKU +","+$resource.name +","+$resource."ResourceType" +","+ $support."Move Subscription" | Out-File -FilePath .\results.csv -Append
         }
 
     }
